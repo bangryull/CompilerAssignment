@@ -1,0 +1,19 @@
+int add3(int a, int b, int c) {
+    int s;
+    s = a + b + c;
+    return s;
+}
+
+int main() {
+    int x;
+    int y;
+    int z;
+    int r;
+
+    x = 1;
+    y = 2;
+    z = 3;
+
+    r = add3(x, y, z);   // 1 + 2 + 3 = 6
+    return r;
+}
