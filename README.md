@@ -1,14 +1,14 @@
 # MiniC Compiler
 
-이 프로젝트는 사용자가 정의한 간단한 C-like 언어(MiniC)를  
+이 프로젝트는 간단한 C-like 언어(MiniC)를  
 x86-64 Linux 어셈블리로 변환하는 컴파일러입니다.
 
-> ⚠️ **중요: 본 프로젝트는 Linux(SysV ABI) 환경에서만 정상 동작합니다.**  
+> **중요: 본 프로젝트는 Linux(SysV ABI) 환경에서만 정상 동작합니다.**  
 > Windows/Mac에서는 실행되지 않으며, 반드시 **WSL 또는 순수 Linux 환경**에서 실행해야 합니다.
 
 ---
 
-## 📌 의존성(Dependencies)
+## 의존성(Dependencies)
 
 Ubuntu/WSL 기준 다음 패키지가 필요합니다:
 
@@ -19,7 +19,7 @@ sudo apt install gcc make flex bison
 
 ---
 
-## 🔧 빌드(Build)
+## 빌드(Build)
 
 프로젝트 루트에서:
 
@@ -36,7 +36,7 @@ make
 
 ---
 
-## ▶️ 실행 방법(Run)
+## 실행 방법(Run)
 
 MiniC 소스 파일을 어셈블리로 변환:
 
@@ -54,16 +54,16 @@ echo $?
 
 ---
 
-## 📁 프로젝트 문서
+## 프로젝트 문서
 
 프로젝트의 상세 설명(문법 정의, AST 구조, 구현 기능, 테스트 프로그램 설명 등)은  
 아래 문서에 정리되어 있습니다:
 
-👉 **설명서.md**
+**설명서.md**
 
 ---
 
-## ⚠️ 리눅스 환경 필수 안내
+## 리눅스 환경 필수 안내
 
 본 컴파일러는 다음 이유로 **Linux에서만 실행이 가능합니다**:
 
@@ -73,9 +73,3 @@ echo $?
 
 따라서 **WSL, Ubuntu, Debian 등 Linux 환경에서 실행해야 합니다.**  
 Windows MinGW 환경에서는 out.s 실행이 불가능합니다.
-
----
-
-## License
-
-This project is for educational use only.
