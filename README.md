@@ -12,7 +12,7 @@ x86-64 Linux 어셈블리로 변환하는 컴파일러입니다.
 
 다음 패키지들이 필요합니다. (Ubuntu / WSL 기준)
 
-```bash
+bash
 sudo apt update
 sudo apt install gcc make flex bison
 🔧 빌드(Build)
