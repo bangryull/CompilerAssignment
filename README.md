@@ -3,12 +3,12 @@
 이 프로젝트는 사용자가 정의한 간단한 C-like 언어(MiniC)를  
 x86-64 Linux 어셈블리로 변환하는 컴파일러입니다.
 
-> ⚠️ **중요: 본 프로젝트는 Linux(SysV ABI) 환경에서만 정상 동작합니다.**  
+> **중요: 본 프로젝트는 Linux(SysV ABI) 환경에서만 정상 동작합니다.**  
 > Windows/Mac에서는 실행되지 않으며, WSL 또는 순수 Linux 환경에서 실행해야 합니다.
 
 ---
 
-## 📌 의존성(Dependencies)
+## 의존성(Dependencies)
 
 다음 패키지들이 필요합니다. (Ubuntu / WSL 기준)
 
