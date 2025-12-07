@@ -52,6 +52,7 @@ gcc -no-pie out.s -o prog
 echo $?
 ```
 <img width="748" height="110" alt="image" src="https://github.com/user-attachments/assets/2767dce9-ce61-4a52-8cae-5557ff692330" />
+
 실행 중에 위와 같은 오류가 있어도 진행하시면 됩니다.
 
 ---
